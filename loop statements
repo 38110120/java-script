@@ -1,0 +1,73 @@
+let s ;
+for(s=0;s<10;s++) {
+    console.log(s);
+
+}
+
+let x = 13 ;
+while(x<=15){
+    console.log(x);
+    x++
+}
+
+let z = 15;
+do{
+    console.log(z);
+    z++;
+}
+while(z<20)
+ 
+let employee;
+let details = {first: 'number', second: 'mailid', third:'bankdetails'};
+for(employee in details){
+    console.log(details[employee]);
+}
+
+let r;
+for(r=0;r<10;r++) { 
+    if(r==5)
+    break;
+    console.log(r);
+}
+
+let q;
+for(q=0;q<10;q++) { 
+    if(q==5)
+    continue;
+    console.log(q);
+}
+
+let age = 10 ;
+if(age>=19){ 
+    console.log('qualifies for voting' );
+}
+    else {
+        console.log('not qualifies for voting');
+    }
+
+
+let book = 'maths';
+if(book=='chemistry')
+{
+    console.log('chemistry');
+}
+else if(book=='history'){
+    console.log('history');
+}
+else if(book=='maths')
+{
+    console.log('maths');
+}
+else(book=='geography')
+{
+    console.log('georaphy');
+}
+
+
+let y;
+for(y=0;y<10;y++) {
+    if(y==6){
+        continue;
+    }
+    console.log(y);
+}
