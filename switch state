@@ -1,0 +1,50 @@
+let grade = 'B';
+switch(grade) {
+    case 'A': console.log('passed with grade 80');
+    break;
+    case 'B': console.log('passed with grade 90');
+    break;
+    case 'C': console.log('passed with garde 70');
+    break;
+    case 'D': console.log('passed with grade 60');
+    break;
+    default: console.log('some unknown grade');
+}
+
+let tvShow = 'jabardast';
+switch(tvShow) {
+    case 'ali tho sardaga': console.log('monday');
+    break;
+    case 'nothing': console.log('tuesday');
+    break;
+    case 'dhee': console.log('wednesday');
+    break;
+    case 'jabardast': 
+    case 'jabardast': console.log('thursday and friday');
+    break;
+    case 'cashShow': console.log('saturday');
+    break;
+    case 'dramaCompany': console.log('sunday');
+    break;
+
+}
+
+
+
+let tvShows = 'nothing';
+switch(tvShows) {
+    case 'ali tho sardaga': console.log('monday');
+    
+    case 'nothing': console.log('tuesday');
+    
+    case 'dhee': console.log('wednesday');
+    
+    case 'jabardast': 
+    case 'jabardast': console.log('thursday and friday');
+    
+    case 'cashShow': console.log('saturday');
+    
+    case 'dramaCompany': console.log('sunday');
+    
+
+}
