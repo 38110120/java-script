@@ -1,0 +1,48 @@
+let emp = { id: 420, salary: 40000, code: 'sri'};
+console.log(emp.id + " " + emp.salary + " " + emp.code);
+
+let employee = { id: 420, salary: 40000, code: 'sri'};
+console.log(employee.id);
+console.log(employee.salary);
+console.log(employee.code);
+
+
+let employe = new Object();
+employe.id = 120;
+employe.name = 'bruh';
+employe.salary = 45000;
+console.log(employe.id +"  " + employe.name + "  " + employe.salary);
+
+
+function student(id, name, salary)
+{
+this.id = id;
+this.name = name;
+this.salary = salary;
+}
+student = new student(420, 'brue', 50000);
+console.log(student.id +"  " + student.name + "  " + student.salary);
+
+
+let house = new Object();
+house.model = "villa";
+house.address = "kanchikacharla";
+house.number = "120";
+console.log(house.model + "  " + house.address + "  " + house.number);
+
+
+let person = {
+    firstName: "dasari",
+    secondName: "gora",
+    empid: 300,
+    get id()
+    {
+        return this.empid;
+    }
+}
+console.log(person.id);
+
+
+
+var dt = Date();
+console.log("Date and Time : " + dt ); 
